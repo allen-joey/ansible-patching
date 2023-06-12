@@ -7,8 +7,8 @@
       group_by:
         key: os_{{ ansible_facts['pkg_mgr'] }}
 
-- name: Update-RHEL-7
-  ansible.builtin.import_playbook: update-rhel7.yml
+# - name: Update-RHEL-7
+#   ansible.builtin.import_playbook: update-rhel7.yml
 
 - name: Update-RHEL8-9
   ansible.builtin.import_playbook: update-rhel8-9.yml
