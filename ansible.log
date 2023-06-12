@@ -1,7 +1,0 @@
-2023-06-12 17:15:05,340 p=8574 u=user1 n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: os_yum
-
-2023-06-12 17:15:05,342 p=8574 u=user1 n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: os_dnf
-
-2023-06-12 17:15:05,342 p=8574 u=user1 n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: os_apt
-
-2023-06-12 17:15:05,343 p=8574 u=user1 n=ansible | playbook: update-by-group.yml
