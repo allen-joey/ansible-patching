@@ -3,7 +3,7 @@
 
 
 [kvm]
-
+kvm-1.domain.local
 
 [kvm_test]
 
