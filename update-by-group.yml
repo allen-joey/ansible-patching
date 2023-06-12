@@ -7,11 +7,6 @@
       group_by:
         key: os_{{ ansible_facts['pkg_mgr'] }}
 
-- name: Sleep for 15 seconds and continue with play
-  ansible.builtin.wait_for:
-    timeout: 15
-  delegate_to: localhost
-
 - name: Update-RHEL-7
   ansible.builtin.import_playbook: update-rhel7.yml
 
