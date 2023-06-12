@@ -1,0 +1,21 @@
+---
+- name: Tasks Patch Ubuntu Linux
+  hosts: os_apt
+  become: true
+
+  tasks:
+    - name: Install updates on Ubuntu
+      ansible.builtin.apt:
+        name: '*'
+        update_cache: true
+        force_apt_get: true
+        state: latest
+      tags:
+        - update-ubuntu
+
+    - name: Upgrade the OS (apt-get dist-upgrade)
+      apt:
+        upgrade: dist
+      tags:
+        - upgrade-ubuntu
+...

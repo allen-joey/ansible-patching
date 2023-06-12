@@ -1,0 +1,9 @@
+ansible-playbook update-by-group.yml --limit servers:kvm -C -v (Limit)
+ansible-playbook update-by-group.yml --limit kvm_test -C -v (Limit)
+ansible-playbook update-by-group.yml -v
+
+# Upgrade all the CentOS yum servers.
+ansible servers:kvm -m yum -a "name=* state=latest" -C -b
+
+# Upgrade all the CentOS dnf servers.
+ansible servers:kvm -m dnf -a "name=* state=latest" -C -b

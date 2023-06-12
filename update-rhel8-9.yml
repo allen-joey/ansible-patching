@@ -1,0 +1,14 @@
+---
+- name: Tasks Patch CentOS-8-9 RHEL-8-9
+  hosts: os_dnf
+  become: true
+
+  tasks:
+    - name: Install updates on CentOS-8-9 RHEL-8-9
+      ansible.builtin.dnf:
+        name: '*'
+        update_cache: true
+        state: latest
+      tags:
+        - update-rhel8-9
+...

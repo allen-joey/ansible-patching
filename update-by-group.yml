@@ -1,0 +1,18 @@
+---
+- name: Playbook to patch group_by module
+  hosts: '*'
+
+  tasks:
+    - name: Create inventory groups based on host facts
+      group_by:
+        key: os_{{ ansible_facts['pkg_mgr'] }}
+
+- name: Update-RHEL-7
+  ansible.builtin.import_playbook: update-rhel7.yml
+
+- name: Update-RHEL8-9
+  ansible.builtin.import_playbook: update-rhel8-9.yml
+
+- name: Update-Ubuntu
+  ansible.builtin.import_playbook: update-ubuntu.yml
+...
