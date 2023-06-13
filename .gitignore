@@ -1,0 +1,11 @@
+*.tmp
+*.bak
+*.swp
+*.log
+*.retry
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+terraform.out
