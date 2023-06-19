@@ -4,12 +4,7 @@
   become: true
   
   tasks:
-
-    - name: Sleep for 30 seconds and continue with play
-      ansible.builtin.wait_for:
-        timeout: 30
-      delegate_to: localhost
-    
+  
     - name: Install updates on CentOS-7 RHEL-7
       ansible.builtin.yum:
         name: '*'
@@ -17,4 +12,4 @@
         state: latest
       tags:
         - update-rhel7
-...
+... 
