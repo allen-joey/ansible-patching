@@ -1,15 +1,6 @@
 # Example Inventory File
 [servers]
 
-
-[kvm]
-
-
-[kvm_test]
-
-
-[ec2]
-
 [localdomain:children]
 
 
