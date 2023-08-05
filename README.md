@@ -27,4 +27,4 @@ Please make sure to update tests as appropriate.
 ## Author Information
 
 Joey Allen
-linkedin.com/in/joey-allen
+(https://www.linkedin.com/in/joey-allen)
