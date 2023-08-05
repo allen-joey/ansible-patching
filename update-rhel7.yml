@@ -2,9 +2,8 @@
 - name: Tasks Patch CentOS-7 RHEL-7
   hosts: os_yum
   become: true
-  
+
   tasks:
-  
     - name: Install updates on CentOS-7 RHEL-7
       ansible.builtin.yum:
         name: '*'

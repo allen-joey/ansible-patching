@@ -42,3 +42,4 @@ terraform.out
 *.tmp
 *.bak
 *.retry
+commit_script.py
