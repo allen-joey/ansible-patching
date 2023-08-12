@@ -1,4 +1,6 @@
 ---
+# playbook uses a group_by keyword and sets the group by key to the operating system distribution.
+
 - name: Playbook to patch group_by module
   hosts: '*'
 
