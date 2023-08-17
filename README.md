@@ -1,4 +1,4 @@
-# Ansible for patching for Linux and Windows Server updates
+# Ansible for patching Linux and Windows Server updates
 
 ## Description
 
