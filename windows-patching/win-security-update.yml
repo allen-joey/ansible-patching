@@ -1,0 +1,27 @@
+---
+# Main playbook to deploy the Windows Security and Critical Updates only
+
+- hosts: '*'
+
+  vars_files:
+    - vars.yml
+
+  tasks:
+
+  - name: Windows ping connectivity of a windows host
+    ansible.windows.win_ping:
+    tags: ping
+
+  - name: Install Windows critical and security updates
+    ansible.windows.win_updates:
+      category_names:
+        - CriticalUpdates
+        - SecurityUpdates
+        - UpdateRollups
+      state: installed    
+    register: update_result
+  
+  - name: reboot Windows host if required
+    ansible.windows.win_reboot:
+    when: update_result.reboot_required   
+...

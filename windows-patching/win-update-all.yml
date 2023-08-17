@@ -1,0 +1,25 @@
+---
+# Main playbook to deploy all the Windows Updates
+
+- hosts: '*'
+
+  vars_files:
+    - vars.yml
+
+  tasks:
+
+  - name: Windows ping connectivity of a windows host
+    ansible.windows.win_ping:
+    tags: ping
+
+  - name: Install all updates and reboot if required
+    ansible.windows.win_updates:
+      category_names: '*'        
+    tags: update_windows
+    
+  - name: Reboot
+    ansible.windows.win_updates:
+      reboot: true
+      reboot_timeout: 3600
+    tags: reboot
+...
