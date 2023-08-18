@@ -1,6 +1,6 @@
 # Ansible Playbook that fully automates the "manual" patching of CentOS/RHEL and Debian/Ubuntu, using all known official patches.
 
-Patches CentOS 7/8/9 Stream, RHEL 7/8/9, Debian Ubuntu 18.04 and 20.04.
+Patches CentOS 6/7/8/9 Stream, RHEL 6/7/8/9, Debian Ubuntu 18.04 and 20.04.
 
 ## Installation
 
