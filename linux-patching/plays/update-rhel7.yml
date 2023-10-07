@@ -10,7 +10,7 @@
 #           ALL the packages with updates on the enabled repositories will be updated. #
 #                                                                                      #
 ########################################################################################
-### Supported OS:  RHEL and CentOS                                                     #
+### Supported OS: RHEL and CentOS                                                      #
 ########################################################################################
 
 - name: Tasks Patch CentOS-7 RHEL-7
