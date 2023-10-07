@@ -1,4 +1,18 @@
----
+--
+# tasks file for patching Ubuntu and Debian
+########################################################################################
+#                                                                                      #
+# --                                                                                   #
+# Author: Joey Allen                                                                   #
+#                                                                                      #
+########################################################################################
+#  Purpose: Playbook to perform 'apt update' on selected hosts.                        #
+#           ALL the packages with updates on the enabled repositories will be updated. #
+#                                                                                      #
+########################################################################################
+### Supported OS: Ubuntu and Debian                                                    #
+########################################################################################
+
 - name: Tasks Patch Ubuntu Linux
   hosts: os_apt
   become: true

@@ -1,4 +1,18 @@
 ---
+# tasks file for patching RHEL-8 and CentOS-8
+########################################################################################
+#                                                                                      #
+# --                                                                                   #
+# Author: Joey Allen                                                                   #
+#                                                                                      #
+########################################################################################
+#  Purpose: Playbook to perform 'dnf update' on selected hosts.                        #
+#           ALL the packages with updates on the enabled repositories will be updated. #
+#                                                                                      #
+########################################################################################
+### Supported OS:  RHEL and CentOS                                                     #
+########################################################################################
+
 - name: Tasks Patch CentOS-8-9 RHEL-8-9
   hosts: os_dnf
   become: true
