@@ -1,4 +1,19 @@
 ---
+# tasks file for patching RHEL-7 and CentOS-7
+########################################################################################
+#                                                                                      #
+# --                                                                                   #
+# Author: Joey Allen                                                                   #
+#                                                                                      #
+########################################################################################
+#  Purpose: Playbook to perform 'yum update' on selected hosts.                        #
+#            ALL the packages with updates on the enabled repositories will be updated #
+#            and more. The playbook will not REBOOT hosts                              #                                                                                      #
+#                                                                                      #
+########################################################################################
+### Supported OS:  RHEL and CentOS                                                     #
+########################################################################################
+
 - name: Tasks Patch CentOS-7 RHEL-7
   hosts: os_yum
   become: true
