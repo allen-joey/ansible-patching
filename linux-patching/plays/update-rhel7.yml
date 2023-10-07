@@ -7,7 +7,7 @@
 #                                                                                      #
 ########################################################################################
 #  Purpose: Playbook to perform 'yum update' on selected hosts.                        #
-#           ALL the packages with updates on the enabled repositories will be updated. #                                                                                      #
+#           ALL the packages with updates on the enabled repositories will be updated. #
 #                                                                                      #
 ########################################################################################
 ### Supported OS:  RHEL and CentOS                                                     #
