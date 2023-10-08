@@ -60,8 +60,7 @@ https://www.linkedin.com/in/joey-allen/
     * Initial Release
 
 ## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+GPLv3 licensed project
 
 # Acknowledgments
 
