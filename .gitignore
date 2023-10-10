@@ -23,15 +23,11 @@ override.tf.json
 # example: *tfplan*
  
 # Ignore CLI configuration files
-.terraformrc
-terraform.rc
- 
 .ansible
 *.log
-*.swp
- 
- 
+*.swp 
 *.tfplan
+plan.out
 plan.txt
 terraform.out
 
@@ -42,4 +38,5 @@ terraform.out
 *.tmp
 *.bak
 *.retry
+*.pem
 commit_script.py
