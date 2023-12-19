@@ -56,7 +56,6 @@ CentOS # dnf or yum install python3-winrm
 ## Version History
 
 * 0.1
-    * Initial Release
 
 ## License
 GPLv3 licensed project
