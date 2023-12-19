@@ -2,7 +2,7 @@
 
 ## Description
 
-There are two directories here for patching Linux[CentOS, RedHat, Ubuntu](https://github.com/allen-joey/ansible-patching/tree/main/linux-patching) and Windows patching see README.md for more information.
+There are two directories here for patching Linux [CentOS, RedHat, Ubuntu](https://github.com/allen-joey/ansible-patching/tree/main/linux-patching) and Windows patching see README.md for more information.
 
 # Authors
 
