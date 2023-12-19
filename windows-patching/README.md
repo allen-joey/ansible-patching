@@ -51,8 +51,7 @@ CentOS # dnf or yum install python3-winrm
 
 ## Authors
 
-Joey Allen
-https://www.linkedin.com/in/joey-allen/
+[Joey Allen](https://www.linkedin.com/in/joey-allen)
 
 ## Version History
 
@@ -70,3 +69,5 @@ Inspiration, code snippets, etc.
 * [dbader](https://github.com/dbader/readme-template)
 * [zenorocha](https://gist.github.com/zenorocha/4526327)
 * [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+
+[SSL Certificates Strong Encryption](https://cloudhosting.comptek.systems/affordable-ssl-certificates)
