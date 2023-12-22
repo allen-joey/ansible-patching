@@ -60,4 +60,4 @@ CentOS # dnf or yum install python3-winrm
 ## License
 GPLv3 licensed project
 
-[SSL Certificates Strong Encryption](https://www.comptek.systems/affordable-ssl-certificates)
+[SSL Certificates Strong Encryption](https://webhosting.comptek.systems/reasonably-priced-ssl-certificates/)

@@ -8,4 +8,4 @@ There are two directories here for patching Linux [CentOS, RedHat and Ubuntu](ht
 
 [Joey Allen](https://www.linkedin.com/in/joey-allen)
 
-[For Reliable Web Hosting Packages](https://www.comptek.systems)
+[For Reliable Web Hosting Packages](https://webhosting.comptek.systems)

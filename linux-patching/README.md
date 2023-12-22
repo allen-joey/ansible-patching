@@ -28,4 +28,4 @@ GPLv3 licensed project
 
 [Joey Allen](https://www.linkedin.com/in/joey-allen)
 
-[Reliable VPS Web Hosting Packages](https://wwww.comptek.systems/openvz-virtual-private-servers-hosting)
+[Reliable Linux KVM VPS Web Hosting Packages](https://webhosting.comptek.systems/kvm-vps-hosting/)
