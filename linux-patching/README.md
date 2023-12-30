@@ -28,4 +28,4 @@ GPLv3 licensed project
 
 [Joey Allen](https://www.linkedin.com/in/joey-allen)
 
-[Reliable Linux KVM VPS Web Hosting Servers](https://www.comptek.systems/kvm-virtual-private-servers-hosting/)
+[Reliable Linux KVM VPS Web Hosting Servers](https://cloud.comptek.systems/kvm-vps-web-hosting/)
